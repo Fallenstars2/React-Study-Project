@@ -1,0 +1,84 @@
+.card{
+  border:  1px solid black;
+  border-radius:  10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin:  10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+
+}
+
+.Idolcards{
+  border:  1px solid black;
+  border-radius:  10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin:  10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+
+}
+
+.card .card-image { 
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.Idolcards .card-image { 
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(77, 77, 77);
+}
+
+.Idolcards .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(77, 77, 77);
+}
+
+.Idols {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.Idols p{
+  margin: 0;
+}
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: rgb(118, 197, 0);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  }
+
+
+  .login-prompt {
+    font-size: 2.5em;
+    background-color: rgb(207, 0, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+  }
